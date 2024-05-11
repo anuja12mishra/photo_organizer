@@ -18,5 +18,6 @@ def organize_files(folder_path):
                 print(f"Failed to move file {file_name}: {e}")
 
 # Replace 'folder_path' with the path to the folder containing the files
-folder_path = "C:\\Users\\anujm\\OneDrive\\Desktop\\organizer\\photo"
+#change the path to your photos present location (use // in place of / in directory path address)
+folder_path = "path"
 organize_files(folder_path)
